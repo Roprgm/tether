@@ -1,7 +1,4 @@
-let TetherBase;
-if (typeof TetherBase === 'undefined') {
-  TetherBase = {modules: []};
-}
+const TetherBase = {modules: []};
 
 let zeroElement = null;
 
@@ -363,3 +360,5 @@ TetherBase.Utils = {
   getScrollBarSize,
   removeUtilElements
 };
+
+export default TetherBase;
