@@ -20,7 +20,7 @@
     "url": "https://github.com/HubSpot/tether.git"
   },
   "license": "MIT",
-  "main": "dist/js/tether.js",
+  "main": "src/js/tether.js",
   "devDependencies": {
     "del": "^2.0.2",
     "del-cli": "^0.2.0",
